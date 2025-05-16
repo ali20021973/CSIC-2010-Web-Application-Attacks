@@ -1,0 +1,38 @@
+AI_Commerce_Project/
+│
+├── configs/              # All configuration files (YAML, JSON)
+├── data/                 # Datasets (input/output)
+│   ├── raw/              # Original data
+│   └── processed/        # Cleaned, transformed data
+│
+├── models/               # Trained ML models
+├── notebooks/            # Jupyter notebooks for EDA and experiments
+├── src/                  # Source code
+│   ├── data/             # Data loading and preprocessing
+│   ├── features/         # Feature engineering
+│   ├── training/         # Model training scripts
+│   ├── evaluation/       # Model evaluation (metrics, plots)
+│   ├── inference/        # Prediction logic / inference API
+│   └── utils/            # Helper functions / shared tools
+│
+├── api/                  # API code (FastAPI/Flask)
+│   ├── routes/           # API endpoints
+│   └── services/         # Core logic called by routes
+│
+├── web/                  # Frontend code (e.g., React, Vue)
+│
+├── tests/                # Unit and integration tests
+├── infra/                # Deployment tools
+│   ├── docker/           # Dockerfiles
+│   ├── k8s/              # Kubernetes configs (if needed)
+│   └── ci_cd/            # GitHub Actions, etc.
+│
+├── logs/                 # Log files
+├── scripts/              # Utility scripts (data download, cleaning, etc.)
+├── docs/                 # Documentation, architecture diagrams
+├── .gitignore
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+└── setup.py
